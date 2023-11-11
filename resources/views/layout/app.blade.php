@@ -18,19 +18,19 @@
     <meta property="og:type" content="website">
 
 <!-- Stylesheets -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
+<link href="{{asset('/')}}assets/css/bootstrap.css" rel="stylesheet">
+<link href="{{asset('/')}}assets/css/style.css" rel="stylesheet">
 <!-- Responsive File -->
-<link href="assets/css/responsive.css" rel="stylesheet">
+<link href="{{asset('/')}}assets/css/responsive.css" rel="stylesheet">
 <!-- Color File -->
-<link href="assets/css/color.css" rel="stylesheet">
+<link href="{{asset('/')}}assets/css/color.css" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com/">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
 
-<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{asset('/')}}assets/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="{{asset('/')}}assets/images/favicon.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,11 +56,11 @@
             <div class="auto-container full-width pl_xxl_220">
                 <div class="inner-container d-flex align-items-center justify-content-between">
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo-light.png" alt=""></a></div>
+                        <div class="logo"><a href="index"><img src="{{asset('/')}}assets/images/logo-light.png" alt=""></a></div>
                     </div>
                     <div class="right-column d-flex align-items-center">
                         <div class="nav-outer">
-                            <div class="mobile-nav-toggler"><img src="assets/images/icons/menu.svg" alt=""></div>
+                            <div class="mobile-nav-toggler"><img src="{{asset('/')}}assets/images/icons/menu.svg" alt=""></div>
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
@@ -85,8 +85,8 @@
                         </div>
                         <button type="button" class="theme-btn search-toggler ml_30"><i class="flaticon-magnifiying-glass"></i></button>
                         <div class="contact-info-box2 d-xl-flex align-items-center d-none ml_40 pl_30 pr_30 pt_20 pb_25">
-                            <img class="mr_20 mt_5" src="assets/images/icons/icon-phone4.png" alt="">
-                            <p class="c_light mb_0 fs_20 lh_20"> <a class="fs_20 fw_sbold" href="tel:18004567890">+1800 (234) 67899</a></p>
+                            <img class="mr_20 mt_5" src="{{asset('/')}}assets/images/icons/icon-phone4.png" alt="">
+                            <p class="c_light mb_0 fs_20 lh_20"> <a class="fs_20 fw_sbold" href="tel:+ 234 9 870 94 33">+ 234 9 870 94 33</a></p>
                         </div>
                     </div>
                 </div>
@@ -97,18 +97,18 @@
                 <div class="auto-container full-width pl_xxl_220">
                     <div class="inner-container d-flex align-items-center justify-content-between">
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo-light.png" alt=""></a></div>
+                            <div class="logo"><a href="index"><img src="{{asset('/')}}assets/images/logo-light.png" alt=""></a></div>
                         </div>
                         <div class="right-column d-flex align-items-center">
                             <div class="nav-outer">
-                                <div class="mobile-nav-toggler"><img src="assets/images/icons/menu.svg" alt=""></div>
+                                <div class="mobile-nav-toggler"><img src="{{asset('/')}}assets/images/icons/menu.svg" alt=""></div>
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                 </nav>
                             </div>
                             <button type="button" class="theme-btn search-toggler ml_30"><i class="flaticon-magnifiying-glass"></i></button>
                             <div class="contact-info-box2 d-xl-flex align-items-center d-none ml_40 pl_30 pr_30 pt_20 pb_25">
-                                <img class="mr_20 mt_5" src="assets/images/icons/icon-phone4.png" alt="">
-                                <p class="c_light mb_0 fs_20 lh_20"> <a class="fs_20 fw_sbold" href="tel:18004567890">+1800 (234) 67899</a></p>
+                                <img class="mr_20 mt_5" src="{{asset('/')}}assets/images/icons/icon-phone4.png" alt="">
+                                <p class="c_light mb_0 fs_20 lh_20"> <a class="fs_20 fw_sbold" href="tel:+ 234 9 870 94 33">+ 234 9 870 94 33</a></p>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
             <div class="close-btn"><span class="fal fa-times"></span></div>
 
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-light.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index"><img src="{{asset('/')}}assets/images/logo-light.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">
@@ -145,7 +145,7 @@
     <section class="hidden-sidebar close-sidebar">
         <div class="wrapper-box">
             <div class="hidden-sidebar-close"><span class="fal fa-times"></span></div>
-            <div class="logo"><a href="#"><img src="assets/images/logo.png" alt=""></a></div>
+            <div class="logo"><a href="#"><img src="{{asset('/')}}assets/images/logo.png" alt=""></a></div>
             <div class="content">
                 <div class="about-widget-two sidebar-widget">
                     <h3>Finding The Best  <br>
@@ -159,7 +159,7 @@
                         <li>
                             <div class="inner">
                                 <div class="icon">
-                                    <img src="assets/images/icons/icon-7__mapmarker.png" alt="">
+                                    <img src="{{asset('/')}}assets/images/icons/icon-7__mapmarker.png" alt="">
                                 </div>
                                 <div class="text">
                                     <p>54B, Tailstoi Town 5238 MT,<br> La city, IA 522364</p>
@@ -169,7 +169,7 @@
                         <li>
                             <div class="inner">
                                 <div class="icon">
-                                    <img src="assets/images/icons/icon-8__envelop.png" alt="">
+                                    <img src="{{asset('/')}}assets/images/icons/icon-8__envelop.png" alt="">
                                 </div>
                                 <div class="text">
                                     <p><a href="mailto:info@example.com">contact@buildnox.com</a></p>
@@ -179,7 +179,7 @@
                         <li>
                             <div class="inner">
                                 <div class="icon">
-                                    <img src="assets/images/icons/icon-9__phone.png" alt="">
+                                    <img src="{{asset('/')}}assets/images/icons/icon-9__phone.png" alt="">
                                 </div>
                                 <div class="text">
                                     <p><a href="tel:+8801682648101">+1800 456 7890</a></p>
@@ -189,7 +189,7 @@
                         <li>
                             <div class="inner">
                                 <div class="icon">
-                                    <img src="assets/images/icons/icon-10__clock.png" alt="">
+                                    <img src="{{asset('/')}}assets/images/icons/icon-10__clock.png" alt="">
                                 </div>
                                 <div class="text">
                                     <p>Working Hrs : 9.30am to 6.30pm</p>
@@ -215,7 +215,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="https://www.designarc.biz/demos/buildnox/index.html">
+                <form method="post" action="https://www.designarc.biz/demos/buildnox/index">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -247,9 +247,9 @@
                     <div class="auto-container">
                         <div class="content-box p_inherit pt_330 pb_200">
                             <div class="inner">
-                                <h1 class="c_light mb_30 fw_black fs_70">Exterior Remode <br> Contractions </h1>
-                                <p class="mb_40 fs_22 c_light">Mauris et tellus congue , rutrum neque a, varius felis. Phasellu <br> nibh diam, tincidunt nec risus ut, auctor gravida metus that <br> covers the front.</p>
-                                <div class="link-box tt_u pr_font fs_14"><a href="appointment.html" class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">Book Appointment <i class="flaticon-fast-forward"></i> <span></span></a></div>
+                                <h1 class="c_light mb_30 fw_black fs_70">Telecom Excellence, <br> Unmatched Connectivity </h1>
+                                <p class="mb_40 fs_22 c_light">Empower your business with cutting-edge Telephone Systems, <br> PABX, Call Centers & Recorders, and unparalleled LAN/WAN networking.<br> Elevate your communication game.</p>
+                                <div class="link-box tt_u pr_font fs_14"><a href="/contact-us" class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">Book Appointment <i class="flaticon-fast-forward"></i> <span></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -260,9 +260,11 @@
                     <div class="auto-container">
                         <div class="content-box p_inherit pt_330 pb_200">
                             <div class="inner">
-                                <h1 class="c_light mb_30 fw_black fs_70" >Exterior Remode <br> Contractions </h1>
-                                <p class="mb_40 fs_22 c_light">Mauris et tellus congue , rutrum neque a, varius felis. Phasellu <br> nibh diam, tincidunt nec risus ut, auctor gravida metus that <br> covers the front.</p>
-                                <div class="link-box tt_u pr_font fs_14"><a href="appointment.html" class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">Book Appointment <i class="flaticon-fast-forward"></i> <span></span></a></div>
+                                <h1 class="c_light mb_30 fw_black fs_70" >Solar Smart <br> Living Solutions </h1>
+                                <p class="mb_40 fs_22 c_light">
+                                    Experience the future with solar-powered systems <br> and state-of-the-art smart home devices. <br> Embrace sustainable living with innovation at your fingertips.
+                                </p>
+                                <div class="link-box tt_u pr_font fs_14"><a href="/contact-us" class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">Book Appointment <i class="flaticon-fast-forward"></i> <span></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -273,9 +275,11 @@
                     <div class="auto-container">
                         <div class="content-box p_inherit pt_330 pb_200">
                             <div class="inner">
-                                <h1 class="c_light mb_30 fw_black fs_70">Exterior Remode <br> Contractions </h1>
-                                <p class="mb_40 fs_22 c_light">Mauris et tellus congue , rutrum neque a, varius felis. Phasellu <br> nibh diam, tincidunt nec risus ut, auctor gravida metus that <br> covers the front.</p>
-                                <div class="link-box tt_u pr_font fs_14"><a href="appointment.html" class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">Book Appointment <i class="flaticon-fast-forward"></i> <span></span></a></div>
+                                <h1 class="c_light mb_30 fw_black fs_70">Solar Engineering <br> Consultancy & Training</h1>
+                                <p class="mb_40 fs_22 c_light">
+                                    Empowering progress through expert engineering services. <br> Illuminate your path with tailored solar training and consultancy.
+                                </p>
+                                <div class="link-box tt_u pr_font fs_14"><a href="/contact-us" class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">Book Appointment <i class="flaticon-fast-forward"></i> <span></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -296,20 +300,31 @@
                     <div class="ml_xxl__155 mr_xxl__18">
                         <div class="row row-20 align-items-end">
                             <div class="col-6">
-                                <div class="image mb_30"><img src="assets/images/resource/image-17.jpg" alt=""></div>
+                                <div class="image mb_30"><img src="{{asset('/')}}assets/images/resource/image-17.jpg" alt=""></div>
                             </div>
                             <div class="col-6">
-                                <div class="image mb_30"><img src="assets/images/resource/image-18.jpg" alt=""></div>
+                                <div class="image mb_30"><img src="{{asset('/')}}assets/images/resource/image-18.jpg" alt=""></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="p_relative ml_xxl_70">
-                        <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>Welcome to buildnox corporation Ltd.</h6>
-                        <h2 class="fs_45 fw_black mb_30 c_light">We Are Best Company In <br> Constrcution</h2>
-                        <h4 class="fs_20 mb_20 c_light">Release of Letraset sheets containing Lorem Ipsum passages.</h4>
-                        <p class="mb_30 fs_18 c_light">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                        <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>Welcome to Electrogenesis</h6>
+                        <h2 class="fs_45 fw_black mb_30 c_light">Who we are </h2>
+                        <h4 class="fs_20 mb_20 c_light">Our Mission</h4>
+                        <p class="mb_30 fs_18 c_light">
+                            To be an organization that functions with sound business anatomy in the fear of GOD, and stand firm like the oak tree at all times
+                        </p>
+                        <h4 class="fs_20 mb_20 c_light">Our Vision</h4>
+                        <p class="mb_30 fs_18 c_light">
+
+                            To advocate love and peace in business deals through our technology offerings <br>
+                            To generate wealth in our country through job creation & good employment
+
+
+                        </p>
+
                         <div class="row">
                             <div class="col-md-6">
                                 <ul class="list-1 c_light fs_20 fw_medium mb_30">
@@ -324,12 +339,12 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="author-box d-flex align-items-center">
-                            <div class="image mb_20 mr_25"><img class="b_radius_50" src="assets/images/resource/author-6.jpg" alt=""></div>
+                        <div class="author-box d-flex align-items-center ">
+                            <div class="image mb_20 mr_25 d-none"><img class="b_radius_50" src="{{asset('/')}}assets/images/resource/author-6.jpg" alt=""></div>
                             <div class="mb_25 mr_40">
-                                <p class="c_light mb_0 fs_20 lh_30"><span class="fs_18 fw_medium">Call Us</span> <br> <a class="fs_20 fw_sbold" href="tel:18004567890">+1800 (234) 67899</a></p>
+                                <p class="c_light mb_0 fs_20 lh_30"><span class="fs_18 fw_medium">Call Us</span> <br> <a class="fs_20 fw_sbold" href="tel:+ 234 9 870 94 33">+ 234 9 870 94 33</a></p>
                             </div>
-                            <div class="signature mb_20 mt_15"><img src="assets/images/resource/signature5.png" alt=""></div>
+                            <div class="signature mb_20 mt_15"><img src="{{asset('/')}}assets/images/resource/signature5.png" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -345,7 +360,7 @@
                     <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>What we do</h6>
                     <h2 class="fs_45 fw_black mb_30">Our Featured Services</h2>
                     <p class="mb_30 fs_18 c_dark3">If you need to repair or replace your Plumbing system, call today and talk to one  of our <br>Plumbing specialists. They’ll answer all your questions and arrange an appointment at <br> your convenience.</p>
-                    <div class="link-btn"><a href="services.html" class="c_primary td_underline ff_sec fw_bold tt_u fs_14 ls_1">view all services </a></div>
+                    <div class="link-btn"><a href="services" class="c_primary td_underline ff_sec fw_bold tt_u fs_14 ls_1">view all services </a></div>
                 </div>
                 <div class="col-lg-4">
                     <div class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
@@ -414,10 +429,10 @@
                     <div class="swiper-slide">
                         <div class="project-1-block">
                             <div class="project-1-image">
-                                <img src="assets/images/gallery/gallery-5.jpg" alt="">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-5.jpg" alt="">
                                 <div class="project-1-overlay">
-                                    <a href="assets/images/gallery/gallery-5.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-5.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
                                     <p class="project-1-cat">Lorence Project</p>
@@ -430,10 +445,10 @@
                     <div class="swiper-slide">
                         <div class="project-1-block">
                             <div class="project-1-image">
-                                <img src="assets/images/gallery/gallery-6.jpg" alt="">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-6.jpg" alt="">
                                 <div class="project-1-overlay">
-                                    <a href="assets/images/gallery/gallery-6.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-6.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
                                     <p class="project-1-cat">Lorence Project</p>
@@ -446,10 +461,10 @@
                     <div class="swiper-slide">
                         <div class="project-1-block">
                             <div class="project-1-image">
-                                <img src="assets/images/gallery/gallery-7.jpg" alt="">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-7.jpg" alt="">
                                 <div class="project-1-overlay">
-                                    <a href="assets/images/gallery/gallery-7.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-7.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
                                     <p class="project-1-cat">Lorence Project</p>
@@ -462,10 +477,10 @@
                     <div class="swiper-slide">
                         <div class="project-1-block">
                             <div class="project-1-image">
-                                <img src="assets/images/gallery/gallery-8.jpg" alt="">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-8.jpg" alt="">
                                 <div class="project-1-overlay">
-                                    <a href="assets/images/gallery/gallery-8.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-8.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
                                     <p class="project-1-cat">Lorence Project</p>
@@ -484,7 +499,7 @@
     </section>
 
     <div class="bg_gray2 pt_1 pb_1">
-        <h1 class="project-1-bottom-title text_stroke mt_100" data-parallax='{"x": -50}'>Technology Civil Construction</h1>
+        <h1 class="project-1-bottom-title text_stroke mt_100" data-parallax='{"x": -50}'>Technology & Smart Solutions</h1>
     </div>
 
     <!-- about -->
@@ -492,9 +507,9 @@
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                    <div class="image mb_90"><img src="assets/images/resource/roller.png" alt=""></div>
+                    <div class="image mb_90"><img src="{{asset('/')}}assets/images/resource/roller.png" alt=""></div>
                     <div class="h_1 mb_50 bg_gray3"></div>
-                    <h5 class="fs_18">To Provide Exceptional Construction and <a href="services.html" class="c_primary">Renovation Services <i class="flaticon-right-arrow-2 fs_20 d_iblock c_light_dark ml_10 p_relative t_3"></i></a></h5>
+                    <h5 class="fs_18">To Provide Exceptional Construction and <a href="services" class="c_primary">Renovation Services <i class="flaticon-right-arrow-2 fs_20 d_iblock c_light_dark ml_10 p_relative t_3"></i></a></h5>
                 </div>
                 <div class="col-lg-6">
                     <div class="ml_xxl__60">
@@ -568,7 +583,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="image-block-1 p_relative pb_30">
-                        <img src="assets/images/resource/image-19.jpg" alt="">
+                        <img src="{{asset('/')}}assets/images/resource/image-19.jpg" alt="">
                         <div class="p_40 pr_35 pt_45 bg_primary text-block-3">
                             <h4 class="c_light fs_28 fw_bold mb_10">Construction <br>
                                 Company</h4>
@@ -601,7 +616,7 @@
                                         <div class="testimonials-1-desc">Normal that has evolved from gene ration X is on the runway heading towards a streamlined cloud solution. strategies to ensure proactive domination. </div>
                                     </div>
                                     <div class="testimonials-1-author">
-                                        <div class="testimonials-1-author-image"><img src="assets/images/resource/author-3.jpg" alt=""></div>
+                                        <div class="testimonials-1-author-image"><img src="{{asset('/')}}assets/images/resource/author-3.jpg" alt=""></div>
                                         <div class="testimonials-1-author-title">Robert Mick</div>
                                         <div class="testimonials-1-designation">Customer</div>
                                     </div>
@@ -615,7 +630,7 @@
                                         <div class="testimonials-1-desc">Normal that has evolved from gene ration X is on the runway heading towards a streamlined cloud solution. strategies to ensure proactive domination.  </div>
                                     </div>
                                     <div class="testimonials-1-author">
-                                        <div class="testimonials-1-author-image"><img src="assets/images/resource/author-4.jpg" alt=""></div>
+                                        <div class="testimonials-1-author-image"><img src="{{asset('/')}}assets/images/resource/author-4.jpg" alt=""></div>
                                         <div class="testimonials-1-author-title">Marray Joe</div>
                                         <div class="testimonials-1-designation">Customer</div>
                                     </div>
@@ -635,19 +650,19 @@
         <div class="auto-container">
             <div class="row align-items-center">
                 <div class="col-xl-2-5 col-lg-3 col-md-4">
-                    <div class="client-logo-1-image alt mb_20"><img src="assets/images/clients-logo/brand-logo-1.png" alt=""></div>
+                    <div class="client-logo-1-image alt mb_20"><img src="{{asset('/')}}assets/images/clients-logo/brand-logo-1.png" alt=""></div>
                 </div>
                 <div class="col-xl-2-5 col-lg-3 col-md-4">
-                    <div class="client-logo-1-image alt mb_20"><img src="assets/images/clients-logo/brand-logo-2.png" alt=""></div>
+                    <div class="client-logo-1-image alt mb_20"><img src="{{asset('/')}}assets/images/clients-logo/brand-logo-2.png" alt=""></div>
                 </div>
                 <div class="col-xl-2-5 col-lg-3 col-md-4">
-                    <div class="client-logo-1-image alt mb_20"><img src="assets/images/clients-logo/brand-logo-3.png" alt=""></div>
+                    <div class="client-logo-1-image alt mb_20"><img src="{{asset('/')}}assets/images/clients-logo/brand-logo-3.png" alt=""></div>
                 </div>
                 <div class="col-xl-2-5 col-lg-3 col-md-4">
-                    <div class="client-logo-1-image alt mb_20"><img src="assets/images/clients-logo/brand-logo-4.png" alt=""></div>
+                    <div class="client-logo-1-image alt mb_20"><img src="{{asset('/')}}assets/images/clients-logo/brand-logo-4.png" alt=""></div>
                 </div>
                 <div class="col-xl-2-5 col-lg-3 col-md-4">
-                    <div class="client-logo-1-image alt mb_20"><img src="assets/images/clients-logo/brand-logo-5.png" alt=""></div>
+                    <div class="client-logo-1-image alt mb_20"><img src="{{asset('/')}}assets/images/clients-logo/brand-logo-5.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -666,34 +681,34 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-1-block wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
-                        <div class="blog-1-image hvr-img-zoom-1"><img src="assets/images/resource/blog-1.jpg" alt=""></div>
+                        <div class="blog-1-image hvr-img-zoom-1"><img src="{{asset('/')}}assets/images/resource/blog-1.jpg" alt=""></div>
                         <div class="blog-1-lower-content p_relative">
                             <div class="blog-1-date fs_20 fw_medium w_80 h_80 theme-bg p_absolute r_25 t_0 text-center text-light pt_15 b_radius_50 lh_25"><span class="fs_25 fw_bold">25</span><br> Feb</div>
                             <p class="blog-1-post-meta fs_17 fw_medium">Admin <span class="ml_5 mr_5">/</span>  Comments 2</p>
-                            <h4 class="blog-1-title mb_30 fs_22 lh_35"><a href="blog-details.html">Normal that has evolved from <br> generation on ...</a></h4>
-                            <div class="blog-1-read-more alt"><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_light2 pl_30 pr_30 p_relative z_1" href="blog-details.html">Read More</a></div>
+                            <h4 class="blog-1-title mb_30 fs_22 lh_35"><a href="blog-details">Normal that has evolved from <br> generation on ...</a></h4>
+                            <div class="blog-1-read-more alt"><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_light2 pl_30 pr_30 p_relative z_1" href="blog-details">Read More</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-1-block wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
-                        <div class="blog-1-image hvr-img-zoom-1"><img src="assets/images/resource/blog-2.jpg" alt=""></div>
+                        <div class="blog-1-image hvr-img-zoom-1"><img src="{{asset('/')}}assets/images/resource/blog-2.jpg" alt=""></div>
                         <div class="blog-1-lower-content p_relative">
                             <div class="blog-1-date fs_20 fw_medium w_80 h_80 theme-bg p_absolute r_25 t_0 text-center text-light pt_15 b_radius_50 lh_25"><span class="fs_25 fw_bold">25</span><br> Feb</div>
                             <p class="blog-1-post-meta fs_17 fw_medium">Admin <span class="ml_5 mr_5">/</span> Comments 2</p>
-                            <h4 class="blog-1-title mb_30 fs_22 lh_35"><a href="blog-details.html">How to hire a Contractor Home Renovation</a></h4>
-                            <div class="blog-1-read-more alt"><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_light2 pl_30 pr_30 p_relative z_1" href="blog-details.html">Read More</a></div>
+                            <h4 class="blog-1-title mb_30 fs_22 lh_35"><a href="blog-details">How to hire a Contractor Home Renovation</a></h4>
+                            <div class="blog-1-read-more alt"><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_light2 pl_30 pr_30 p_relative z_1" href="blog-details">Read More</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
                     <div class="blog-1-block">
-                        <div class="blog-1-image hvr-img-zoom-1"><img src="assets/images/resource/blog-3.jpg" alt=""></div>
+                        <div class="blog-1-image hvr-img-zoom-1"><img src="{{asset('/')}}assets/images/resource/blog-3.jpg" alt=""></div>
                         <div class="blog-1-lower-content p_relative">
                             <div class="blog-1-date fs_20 fw_medium w_80 h_80 theme-bg p_absolute r_25 t_0 text-center text-light pt_15 b_radius_50 lh_25"><span class="fs_25 fw_bold">25</span><br> Feb</div>
                             <p class="blog-1-post-meta fs_17 fw_medium">Admin <span class="ml_5 mr_5">/</span> Comments 2</p>
-                            <h4 class="blog-1-title mb_30 fs_22 lh_35"><a href="blog-details.html">Know the secreat of <br> buildnox work</a></h4>
-                            <div class="blog-1-read-more alt"><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_light2 pl_30 pr_30 p_relative z_1" href="blog-details.html">Read More</a></div>
+                            <h4 class="blog-1-title mb_30 fs_22 lh_35"><a href="blog-details">Know the secreat of <br> buildnox work</a></h4>
+                            <div class="blog-1-read-more alt"><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_light2 pl_30 pr_30 p_relative z_1" href="blog-details">Read More</a></div>
                         </div>
                     </div>
                 </div>
@@ -710,8 +725,10 @@
             <div class="contact-info-1-box alt">
                 <h4 class="fs_20 c_light mb_10">Office Address</h4>
                 <span class="w_20 h_2 bg_light mr_10 d_iblock mb_20"></span>
-                <p class="c_light mb_25">PO Box 5849 Collins Street West Victoria 9005 Australia</p>
-                <p class="c_light">Phone : <a href="tel:+ 1800 456 7890">+ 1800 456 7890</a> </p>
+                <p class="c_light mb_25">Plot 14, Femowei Crescent
+                    Kubwa 2/1, FCT <br>
+                    Abuja 900 001</p>
+                <p class="c_light">Phone : <a href="tel:+ 234 9 870 94 33">+ 234 9 870 94 33</a> </p>
             </div>
         </div>
     </section>
@@ -722,21 +739,23 @@
                 <div class="row no-gutters">
                     <div class="col-lg-4 col-md-6">
                         <div class="contact-info-box2 d-flex align-items-start pt_20 pb_15">
-                            <img class="mr_20 mt_10" src="assets/images/icons/icon-map.png" alt="">
-                            <p class="c_light mb_0 lh_30">54B, Tailstoi Town 5238 MT, <br>
-                                La city, IA 522364</p>
+                            <img class="mr_20 mt_10" src="{{asset('/')}}assets/images/icons/icon-map.png" alt="">
+                            <p class="c_light mb_0 lh_30">Plot 14, Femowei Crescent
+                                Kubwa 2/1, FCT <br>
+                                Abuja 900 001
+                                </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="contact-info-box2 d-flex align-items-start ps-md-5 pt_20 pb_15">
-                            <img class="mr_20 mt_10" src="assets/images/icons/icon-mail.png" alt="">
-                            <p class="c_light mb_0 lh_30">Email us : <br> <a class="fs_20" href="mailto:contact@buildnox.com">contact@buildnox.com</a></p>
+                            <img class="mr_20 mt_10" src="{{asset('/')}}assets/images/icons/icon-mail.png" alt="">
+                            <p class="c_light mb_0 lh_30">Email us : <br> <a class="fs_20" href="mailto:support@electrogenesis.org">support@electrogenesis.org</a></p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="contact-info-box2 d-flex align-items-start ps-lg-5 pt_20 pb_15">
-                            <img class="mr_20 mt_10" src="assets/images/icons/icon-phone.png" alt="">
-                            <p class="c_light mb_0 fs_20 lh_30">Call us on : <br> <a class="fs_22 fw_medium" href="tel:18004567890">+ 1800 456 7890</a></p>
+                            <img class="mr_20 mt_10" src="{{asset('/')}}assets/images/icons/icon-phone.png" alt="">
+                            <p class="c_light mb_0 fs_20 lh_30">Call us on : <br> <a class="fs_22 fw_medium" href="tel:+ 234 9 870 94 33">+ 234 9 870 94 33 </a></p>
                         </div>
                     </div>
                 </div>
@@ -748,8 +767,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="about-widget mb_40">
-                            <div class="logo mb_30"><img src="assets/images/logo-light.png" alt=""></div>
-                            <p class="c_light2 fs_17 fw_medium">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
+                            <div class="logo mb_30"><img src="{{asset('/')}}assets/images/logo-light.png" alt=""></div>
+                            <p class="c_light2 fs_17 fw_medium">Empowering Tomorrow, Today. Innovate with confidence through our expert solar engineering consultancy and specialized training
                             </p>
                         </div>
                     </div>
@@ -759,8 +778,7 @@
                             <ul class="link-widget-1-list c_light2 fw_medium">
                                 <li><a href="javascript:void(0);">Home</a></li>
                                 <li><a href="javascript:void(0);">About Us</a></li>
-                                <li><a href="javascript:void(0);">Appointment</a></li>
-                                <li><a href="javascript:void(0);">Case</a></li>
+
                                 <li><a href="javascript:void(0);">Contact Us</a></li>
                             </ul>
                         </div>
@@ -769,11 +787,11 @@
                         <div class="link-widget-1 mb_40">
                             <h4 class="fs_22 fw_medium mb_20 c_light fs_17">Our Services</h4>
                             <ul class="link-widget-1-list c_light2 fw_medium">
-                                <li><a href="javascript:void(0);">Building Construction</a></li>
-                                <li><a href="javascript:void(0);">Archtecture Design</a></li>
-                                <li><a href="javascript:void(0);">Building Renovation</a></li>
-                                <li><a href="javascript:void(0);">Flooring & Roofing</a></li>
-                                <li><a href="javascript:void(0);">Damage Roof Repair</a></li>
+                                <li><a href="javascript:void(0);">Power</a></li>
+                                <li><a href="javascript:void(0);">ICT & Telecommunications</a></li>
+                                <li><a href="javascript:void(0);">Smart Energy Solutions</a></li>
+                                <li><a href="javascript:void(0);">Electrogenesis Academy</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -800,8 +818,8 @@
             <div class="auto-container">
                 <div class="footer-border"></div>
                 <div class="d-flex justify-content-lg-between pt_20 pb_6">
-                    <p class="c_light2 fs_17 mb_20 fw_medium">© Copyright  <a href="javascript:void(0);">buildnox</a> 2023 . All right reserved. </p>
-                    <p class="c_light2 fs_17 mb_20 fw_medium">Created By Designarc</p>
+                    <p class="c_light2 fs_17 mb_20 fw_medium">© Copyright  <a href="javascript:void(0);">Electrogenesis</a> 2023 . All right reserved. </p>
+                    <p class="c_light2 fs_17 mb_20 fw_medium">Created By vicSystems Technologies Ltd.</p>
                 </div>
             </div>
         </div>
@@ -822,26 +840,26 @@
 </div>
 <!-- Scroll to top end -->
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/isotope.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/swiper.min.js"></script>
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-<script src="assets/js/parallax-scroll.js"></script>
-<script src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="{{asset('/')}}assets/js/jquery.min.js"></script>
+<script src="{{asset('/')}}assets/js/bootstrap.min.js"></script>
+<script src="{{asset('/')}}assets/js/jquery.nice-select.min.js"></script>
+<script src="{{asset('/')}}assets/js/jquery.fancybox.js"></script>
+<script src="{{asset('/')}}assets/js/isotope.js"></script>
+<script src="{{asset('/')}}assets/js/appear.js"></script>
+<script src="{{asset('/')}}assets/js/wow.js"></script>
+<script src="{{asset('/')}}assets/js/TweenMax.min.js"></script>
+<script src="{{asset('/')}}assets/js/swiper.min.js"></script>
+<script src="{{asset('/')}}assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="{{asset('/')}}assets/js/parallax-scroll.js"></script>
+<script src="{{asset('/')}}assets/js/jquery-ui-1.9.2.custom.min.js"></script>
 
-<script src="assets/js/odometer.min.js"></script>
-<script src="assets/js/script.js"></script>
+<script src="{{asset('/')}}assets/js/odometer.min.js"></script>
+<script src="{{asset('/')}}assets/js/script.js"></script>
 
 
 </body>
 
-<!-- Mirrored from www.designarc.biz/demos/buildnox/index-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Nov 2023 18:00:38 GMT -->
+<!-- Mirrored from www.designarc.biz/demos/buildnox/index-6 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Nov 2023 18:00:38 GMT -->
 </html>
 
 
