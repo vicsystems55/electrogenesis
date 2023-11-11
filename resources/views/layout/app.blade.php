@@ -4,7 +4,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Electrogenesis - Home</title>
+<title>Electrogenesis - {{$pageTitle}}</title>
 
     <meta name="description" content="We carter for businesses with ICT & Telecommunication needs, clean Power Solutions, Renewable Smart Energy, Lighting, Healthcare and Education">
     <meta name="keywords" content="ICT, Telecommunication, Business, Clean Power Solutions, Renewable Energy, Smart Energy, Lighting, Healthcare, Education.">
@@ -13,8 +13,8 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Electrogenesis">
     <meta property="og:description" content="We carter for businesses with ICT & Telecommunication needs, clean Power Solutions, Renewable Smart Energy, Lighting, Healthcare and Education">
-    <meta property="og:image" content="url_to_your_image.jpg"> <!-- URL to your image -->
-    <meta property="og:url" content="https://www.electrogenesis.com">
+    <meta property="og:image" content="{{asset('/')}}assets/images/og_image.png"> <!-- URL to your image -->
+    <meta property="og:url" content="https://www.electrogenesis.org">
     <meta property="og:type" content="website">
 
 <!-- Stylesheets -->
@@ -237,7 +237,7 @@
     </div>
 
     <section class="banner-1-section banner-section bg_dark5 overflow-hidden">
-        <h1 class="banner-1-side-text text_stroke">Construction</h1>
+        <h1 class="banner-1-side-text text_stroke">Green Energy</h1>
 
         <div class="swiper-container banner-slider-2">
             <div class="swiper-wrapper">
@@ -352,61 +352,66 @@
         </div>
     </section>
 
-    <!-- features -->
-    <section class="bg_gray2 pt_120 pb_90">
+    <!-- services -->
+    <section class="pb_90 pt_100">
         <div class="auto-container">
+            <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>What we do</h6>
+            <h2 class="fw_black fs_45 mb_20">Our Services That We Provide</h2>
+            <p class="mb_50 fs_18">If you need to repair or replace your Plumbing system, call today and talk to one of our Plumbing specialists. They’ll answer all your <br> questions and arrange an appointment at your convenience.</p>
             <div class="row">
-                <div class="col-lg-8">
-                    <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>What we do</h6>
-                    <h2 class="fs_45 fw_black mb_30">Our Featured Services</h2>
-                    <p class="mb_30 fs_18 c_dark3">If you need to repair or replace your Plumbing system, call today and talk to one  of our <br>Plumbing specialists. They’ll answer all your questions and arrange an appointment at <br> your convenience.</p>
-                    <div class="link-btn"><a href="services" class="c_primary td_underline ff_sec fw_bold tt_u fs_14 ls_1">view all services </a></div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="icon_box_1 icon_box_1_with_hover alt mb_30 p_relative d-flex p_35 pt_40 b_radius_6">
-                            <div>
-                                <i class="flaticon-renovation fs_65 c_primary mb_40 d_iblock"></i>
-                                <h4 class="fs_24 fw_normal c_dark4">Building Renovation</span></h4>
-                                <div class="link mb_75"><a href="#" class="ff_sec fw_bold tt_u fs_14 ls_1 c_light_dark">View more <i class="p_relative t_3 c_primary ml_10 fs_20 v_middle flaticon-right-arrow-2"></i></a></div>
-                                <div class="p_relative"><h5 class="fs_14 c_light_dark">03.</h5></div>
-                            </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
+                    <div class="service-1-block alt">
+                        <div class="service-1-shape"></div>
+                        <div class="service-1-icon">
+                            {{-- <i class="flaticon-construction"></i> --}}
+                        </div>
+                        <h4 class="service-1-title fs_25">Energy<br>
+                            <span class="fw_normal">Solar Systems</span></h4>
+                        <div class="service-1-image">
+                            <img src="assets/images/resource/service-1.jpg" alt="">
+                            <div class="service-1-read-more"><a href="service-details.html" class="c_light ff_sec fw_bold tt_u fs_14 ls_1">Read More <i class="ml_7 fs_17 v_middle flaticon-fast-forward"></i></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="icon_box_1 icon_box_1_with_hover alt mb_30 p_relative d-flex p_35 pt_40 b_radius_6">
-                            <div>
-                                <i class="flaticon-roof fs_65 c_primary mb_40 d_iblock"></i>
-                                <h4 class="fs_24 fw_normal c_dark4">Flooring & Roofing</span></h4>
-                                <div class="link mb_75"><a href="#" class="ff_sec fw_bold tt_u fs_14 ls_1 c_light_dark">View more <i class="p_relative t_3 c_primary ml_10 fs_20 v_middle flaticon-right-arrow-2"></i></a></div>
-                                <div class="p_relative"><h5 class="fs_14 c_light_dark">04.</h5></div>
-                            </div>
+                <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
+                    <div class="service-1-block alt">
+                        <div class="service-1-shape"></div>
+                        <div class="service-1-icon">
+                            {{-- <i class="flaticon-sketch"></i> --}}
+                        </div>
+                        <h4 class="service-1-title fs_25">ICT <br>
+                            <span class="fw_normal">Telecoms.</span></h4>
+                        <div class="service-1-image">
+                            <img src="assets/images/resource/image-26.jpg" alt="">
+                            <div class="service-1-read-more"><a href="service-details.html" class="c_light ff_sec fw_bold tt_u fs_14 ls_1">Read More <i class="ml_7 fs_17 v_middle flaticon-fast-forward"></i></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="icon_box_1 icon_box_1_with_hover alt mb_30 p_relative d-flex p_35 pt_40 b_radius_6">
-                            <div>
-                                <i class="flaticon-interior-design fs_65 c_primary mb_40 d_iblock"></i>
-                                <h4 class="fs_24 fw_normal c_dark4">Interior Design</span></h4>
-                                <div class="link mb_75"><a href="#" class="ff_sec fw_bold tt_u fs_14 ls_1 c_light_dark">View more <i class="p_relative t_3 c_primary ml_10 fs_20 v_middle flaticon-right-arrow-2"></i></a></div>
-                                <div class="p_relative"><h5 class="fs_14 c_light_dark">05.</h5></div>
-                            </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
+                    <div class="service-1-block alt">
+                        <div class="service-1-shape"></div>
+                        <div class="service-1-icon">
+                            {{-- <i class="flaticon-renovation"></i> --}}
+                        </div>
+                        <h4 class="service-1-title fs_25">Engineering <br>
+                            <span class="fw_normal">Services</span></h4>
+                        <div class="service-1-image">
+                            <img src="assets/images/resource/image-27.jpg" alt="">
+                            <div class="service-1-read-more"><a href="service-details.html" class="c_light ff_sec fw_bold tt_u fs_14 ls_1">Read More <i class="ml_7 fs_17 v_middle flaticon-fast-forward"></i></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="icon_box_1 icon_box_1_with_hover alt mb_30 p_relative d-flex p_35 pt_40 b_radius_6">
-                            <div>
-                                <i class="flaticon-trowel fs_65 c_primary mb_40 d_iblock"></i>
-                                <h4 class="fs_24 fw_normal c_dark4">Repair & Expand</span></h4>
-                                <div class="link mb_75"><a href="#" class="ff_sec fw_bold tt_u fs_14 ls_1 c_light_dark">View more <i class="p_relative t_3 c_primary ml_10 fs_20 v_middle flaticon-right-arrow-2"></i></a></div>
-                                <div class="p_relative"><h5 class="fs_14 c_light_dark">06.</h5></div>
-                            </div>
+                <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
+                    <div class="service-1-block alt">
+                        <div class="service-1-shape"></div>
+                        <div class="service-1-icon">
+                            {{-- <i class="flaticon-roof"></i> --}}
+                        </div>
+                        <h4 class="service-1-title fs_25">Education <br>
+                            <span class="fw_normal">Consultancy</span></h4>
+                        <div class="service-1-image">
+                            <img src="assets/images/resource/image-28.jpg" alt="">
+                            <div class="service-1-read-more"><a href="service-details.html" class="c_light ff_sec fw_bold tt_u fs_14 ls_1">Read More <i class="ml_7 fs_17 v_middle flaticon-fast-forward"></i></a></div>
                         </div>
                     </div>
                 </div>

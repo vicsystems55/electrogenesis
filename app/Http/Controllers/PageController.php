@@ -10,8 +10,10 @@ class PageController extends Controller
 
     public function index(){
 
+        $pageTitle = 'Home';
 
-        return view('home');
+
+        return view('home', compact('pageTitle'));
     }
     public function about_us(){
 
