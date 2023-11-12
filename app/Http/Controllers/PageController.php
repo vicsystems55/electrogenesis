@@ -18,31 +18,48 @@ class PageController extends Controller
     public function about_us(){
 
 
-        return view('about');
+        $pageTitle = 'About us';
+
+
+        return view('home', compact('pageTitle'));
     }
     public function services(){
 
 
-        return view('services');
+        $pageTitle = 'Our Services';
+
+
+        return view('home', compact('pageTitle'));
     }
     public function our_projects(){
 
 
-        return view('projects');
+        $pageTitle = 'Our Projects';
+
+
+        return view('home', compact('pageTitle'));
     }
     public function blog(){
 
+        $pageTitle = 'Our Blog';
 
-        return view('blog');
+
+        return view('home', compact('pageTitle'));
     }
     public function post(){
 
 
-        return view('post');
+        $pageTitle = 'Post';
+
+
+        return view('home', compact('pageTitle'));
     }
     public function contact_us(){
 
 
-        return view('contact');
+        $pageTitle = 'Contact us';
+
+
+        return view('home', compact('pageTitle'));
     }
 }

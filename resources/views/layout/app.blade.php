@@ -4,7 +4,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Electrogenesis - {{$pageTitle}}</title>
+<title>Electrogenesis - {{$pageTitle??'Home.'}}</title>
 
     <meta name="description" content="We carter for businesses with ICT & Telecommunication needs, clean Power Solutions, Renewable Smart Energy, Lighting, Healthcare and Education">
     <meta name="keywords" content="ICT, Telecommunication, Business, Clean Power Solutions, Renewable Energy, Smart Energy, Lighting, Healthcare, Education.">
@@ -443,7 +443,7 @@
                                 </div>
                                 <div class="project-1-content">
                                     <p class="project-1-cat">Solar Project</p>
-                                    <h4 class="project-1-title">Smart Energy Project, Street Lighting, Building Electrical Wiring& Fitting, Building Earthing& Lightening Protection
+                                    <h4 class="project-1-title">Street Lighting, Building Electrical Wiring& Fitting, Building Earthing& Lightening Protection
 
                                         </h4>
                                 </div>
@@ -460,8 +460,18 @@
                                     <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
-                                    <p class="project-1-cat">Lorence Project</p>
-                                    <h4 class="project-1-title">Building Construction</h4>
+                                    <p class="project-1-cat">ICT Infrastructure
+                                        </p>
+                                    <h4 class="project-1-title">
+                                        IPPBX range of Hybrid and IP – Alcatel Lucent, Panasonic,  Ericsson, NEC Philips,
+                                        LAN / WAN – Cisco, Juniper, Alcatel,
+                                        Audio /Video Conferencing – Polycom,
+                                        Headsets – Plantronics,
+                                        Mobile DECT phones – Alcatel Lucent,
+                                        Call Centers & Recorders,
+                                        Billing systems
+
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -476,8 +486,10 @@
                                     <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
-                                    <p class="project-1-cat">Lorence Project</p>
-                                    <h4 class="project-1-title">Building Construction</h4>
+                                    <p class="project-1-cat">BTS Base Stations</p>
+                                    <h4 class="project-1-title">BTS Site Build,
+                                        BTS Maintenance
+                                        </h4>
                                 </div>
                             </div>
                         </div>
@@ -492,8 +504,169 @@
                                     <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
-                                    <p class="project-1-cat">Lorence Project</p>
-                                    <h4 class="project-1-title">Building Construction</h4>
+                                    <p class="project-1-cat">Security & Surveillance</p>
+                                    <h4 class="project-1-title">
+                                        CCTV,
+                                        Access Control,
+                                        Metal Detectors,
+                                        Electronic Gadgets
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-1-block">
+                            <div class="project-1-image">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-9.jpg" alt="">
+                                <div class="project-1-overlay">
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-9.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
+                                </div>
+                                <div class="project-1-content">
+                                    <p class="project-1-cat">
+                                        Video Matrix Billboards
+                                        </p>
+                                    <h4 class="project-1-title">
+                                        Stadium Sports Scoreboards,
+                                        Advertising Billboards,
+                                        Indoor LED displays,
+                                        Neon Signage
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-1-block">
+                            <div class="project-1-image">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-10.jpg" alt="">
+                                <div class="project-1-overlay">
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-10.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
+                                </div>
+                                <div class="project-1-content">
+                                    <p class="project-1-cat">
+                                        Poles & Masts Tools
+                                        </p>
+                                    <h4 class="project-1-title">
+                                        Street Light Galvanized Steel Poles,
+                                        Floodlight Poles,
+                                        Communication Masts,
+                                        Metal Constructions,
+                                        Designs
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-1-block">
+                            <div class="project-1-image">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-11.jpg" alt="">
+                                <div class="project-1-overlay">
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-11.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
+                                </div>
+                                <div class="project-1-content">
+                                    <p class="project-1-cat">
+                                        Medical Supplies
+                                        </p>
+                                    <h4 class="project-1-title">
+                                        Medical Equipment,
+                                        Healthcare Advocacy,
+                                        Medical gases,
+                                        Medical Resources – manpower, journals, events
+
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-1-block">
+                            <div class="project-1-image">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-12.jpg" alt="">
+                                <div class="project-1-overlay">
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-12.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
+                                </div>
+                                <div class="project-1-content">
+                                    <p class="project-1-cat">
+                                        Smart Energy Solutions
+                                        </p>
+                                    <h4 class="project-1-title">
+                                        Energy Storage Systems,
+                                        Building Management Systems,
+                                        Public Light Management Solutions,
+                                        Stable Energy Supply,
+                                        Electric Vehicle (EV) Charging Infrastructure,
+                                        Smart Houses,
+                                        Smart Buildings,
+                                        Solutions for Utility Companies
+
+
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-1-block">
+                            <div class="project-1-image">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-13.jpg" alt="">
+                                <div class="project-1-overlay">
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-13.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
+                                </div>
+                                <div class="project-1-content">
+                                    <p class="project-1-cat">
+                                        Educational Technology  Supplies
+                                        </p>
+                                    <h4 class="project-1-title">
+                                        Interactive White Boards,
+                                        School Management Systems,
+                                        Teaching Aids,
+                                        Educational Community Resources – manpower, journals, excursions
+
+
+
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="project-1-block">
+                            <div class="project-1-image">
+                                <img src="{{asset('/')}}assets/images/gallery/gallery-14.jpg" alt="">
+                                <div class="project-1-overlay">
+                                    <a href="{{asset('/')}}assets/images/gallery/gallery-14.jpg" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                    <a href="project-details"><i class="flaticon-link"></i></a>
+                                </div>
+                                <div class="project-1-content">
+                                    <p class="project-1-cat">
+                                      Electrogenesis Academy
+                                        </p>
+                                    <h4 class="project-1-title">
+                                        Creative Writing,
+                                        Training Courses and Skills Development
+
+
+
+
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -527,34 +700,31 @@
                                 <div class="acc-btn active c_dark fs_28 ff_sec"><div class="icon-outer fs_14 fw_bold c_light_dark">01.</div>Consultancy</div>
                                 <div class="acc-content current">
                                     <div class="content">
-                                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
+                                        <p>As consultants, we provide tailored insights, strategic guidance, and innovative solutions, empowering businesses to navigate and excel in the dynamic solar energy landscape.</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="accordion block">
-                                <div class="acc-btn c_dark fs_28 ff_sec"><div class="icon-outer fs_14 fw_bold c_light_dark">02.</div>Residential Project</div>
+                                <div class="acc-btn c_dark fs_28 ff_sec"><div class="icon-outer fs_14 fw_bold c_light_dark">02.</div>Support</div>
                                 <div class="acc-content">
                                     <div class="content">
-                                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
+                                        <p>
+                                            Electrogenesis provides comprehensive maintenance and support to office ICT infrastructure through a contract for a specific period.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
                             <li class="accordion block">
-                                <div class="acc-btn c_dark fs_28 ff_sec"><div class="icon-outer fs_14 fw_bold c_light_dark">03.</div>Architecture</div>
+                                <div class="acc-btn c_dark fs_28 ff_sec"><div class="icon-outer fs_14 fw_bold c_light_dark">03.</div>Careers</div>
                                 <div class="acc-content">
                                     <div class="content">
-                                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
+                                        <p>
+                                            Electrogenesis is an equal opportunities employer on merit. Vacancies are announced on this site when there are openings.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
-                            <li class="accordion block">
-                                <div class="acc-btn c_dark fs_28 ff_sec"><div class="icon-outer fs_14 fw_bold c_light_dark">04.</div>Building Planning</div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
-                                    </div>
-                                </div>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -563,7 +733,7 @@
     </section>
 
     <!-- feature -->
-    <section class="pb_90 pt_90">
+    <section class="pb_90 pt_90 d-none">
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-6">
@@ -612,7 +782,7 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>Testimonials</h6>
-                    <h2 class="c_light fs_45 fw_black mb_40">What They’re <br> Talking About <br> Comapany ?</h2>
+                    <h2 class="c_light fs_45 fw_black mb_40">What our clients say.</h2>
 				</div>
 				<div class="col-lg-8">
                     <div class="swiper-container two-item-carousel">
@@ -622,11 +792,11 @@
                                 <div class="testimonials-1-block">
                                     <div class="testimonials-1-top-content">
                                         <div class="testimonials-1-quote"><i class="flaticon-quotation"></i></div>
-                                        <div class="testimonials-1-desc">Normal that has evolved from gene ration X is on the runway heading towards a streamlined cloud solution. strategies to ensure proactive domination. </div>
+                                        <div class="testimonials-1-desc">Electrogenesis transformed my business. Expert advice, personalized solutions, and remarkable results. Highly recommended!</div>
                                     </div>
                                     <div class="testimonials-1-author">
                                         <div class="testimonials-1-author-image"><img src="{{asset('/')}}assets/images/resource/author-3.jpg" alt=""></div>
-                                        <div class="testimonials-1-author-title">Robert Mick</div>
+                                        <div class="testimonials-1-author-title">Victor</div>
                                         <div class="testimonials-1-designation">Customer</div>
                                     </div>
                                 </div>
@@ -636,11 +806,24 @@
                                 <div class="testimonials-1-block">
                                     <div class="testimonials-1-top-content">
                                         <div class="testimonials-1-quote"><i class="flaticon-quotation"></i></div>
-                                        <div class="testimonials-1-desc">Normal that has evolved from gene ration X is on the runway heading towards a streamlined cloud solution. strategies to ensure proactive domination.  </div>
+                                        <div class="testimonials-1-desc">Your trainings were invaluable. Clear, practical, and boosted our team's solar expertise. A game-changer.</div>
                                     </div>
                                     <div class="testimonials-1-author">
                                         <div class="testimonials-1-author-image"><img src="{{asset('/')}}assets/images/resource/author-4.jpg" alt=""></div>
-                                        <div class="testimonials-1-author-title">Marray Joe</div>
+                                        <div class="testimonials-1-author-title">Segun</div>
+                                        <div class="testimonials-1-designation">Customer</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials-1-block">
+                                    <div class="testimonials-1-top-content">
+                                        <div class="testimonials-1-quote"><i class="flaticon-quotation"></i></div>
+                                        <div class="testimonials-1-desc">They are experts in smart home devices transformed our living spaces. Efficient, innovative, and a pleasure to work with.</div>
+                                    </div>
+                                    <div class="testimonials-1-author">
+                                        <div class="testimonials-1-author-image"><img src="{{asset('/')}}assets/images/resource/author-5.jpg" alt=""></div>
+                                        <div class="testimonials-1-author-title">Nandom</div>
                                         <div class="testimonials-1-designation">Customer</div>
                                     </div>
                                 </div>
@@ -678,14 +861,16 @@
     </div>
 
     <!-- blog -->
-    <section class="pt_120 pb_90">
+    <section class="pt_120 pb_90 d-none">
         <div class="auto-container">
             <div class="d-flex flex-wrap justify-content-lg-between align-items-end">
                 <div>
                     <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>From the blog</h6>
                     <h2 class="fs_45 fw_black mb_40">New & Articles</h2>
                 </div>
-                <p class="mb_40">Going forward, a new normal that has evolved from generation is on <br> the runway heading towards a streamlined.</p>
+                <p class="mb_40">
+
+                </p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -728,7 +913,9 @@
     <!-- map -->
     <section class="map-1-section">
         <div class="p_absolute t_0 r_0 b_0 l_0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd" width="600" height="550" frameborder="0" style="border:0; width: 100%; height: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Plot%2014,%20Femowei%20Crescent%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Kubwa%202/1,%20FCT%20Abuja%20900%20001+(Electrogenesis)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            width="600" height="550" frameborder="0" style="border:0; width: 100%; height: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         <div class="auto-container">
             <div class="contact-info-1-box alt">
