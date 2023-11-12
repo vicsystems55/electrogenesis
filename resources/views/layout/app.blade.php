@@ -243,7 +243,7 @@
             <div class="swiper-wrapper">
                 <!-- Slide Item -->
                 <div class="swiper-slide">
-                    <div class="bnox_76 p_absolute l_0 l_xxl_220 t_110 r_0 b_0 bg_cover" style="background-image: url(assets/images/main-slider/banner-6.jpg);"></div>
+                    <div class="bnox_76 p_absolute l_0 l_xxl_220 t_110 r_0 b_0 bg_cover" style="background-position: center center; background-image: url(assets/images/main-slider/banner-6.jpg);"></div>
                     <div class="auto-container">
                         <div class="content-box p_inherit pt_330 pb_200">
                             <div class="inner">
@@ -256,7 +256,7 @@
                 </div>
                 <!-- Slide Item -->
                 <div class="swiper-slide">
-                    <div class="bnox_76 p_absolute l_0 l_xxl_220 t_110 r_0 b_0 bg_cover" style="background-image: url(assets/images/main-slider/banner-9.jpg);"></div>
+                    <div class="bnox_76 p_absolute l_0 l_xxl_220 t_110 r_0 b_0 bg_cover" style="background-position: center center; background-image: url(assets/images/main-slider/banner-9.jpg);"></div>
                     <div class="auto-container">
                         <div class="content-box p_inherit pt_330 pb_200">
                             <div class="inner">
@@ -271,7 +271,7 @@
                 </div>
                 <!-- Slide Item -->
                 <div class="swiper-slide">
-                    <div class="bnox_76 p_absolute l_0 l_xxl_220 t_110 r_0 b_0 bg_cover" style="background-image: url(assets/images/main-slider/banner-10.jpg);"></div>
+                    <div class="bnox_76 p_absolute l_0 l_xxl_220 t_110 r_0 b_0 bg_cover" style="background-position: center center; background-image: url(assets/images/main-slider/banner-10.jpg);"></div>
                     <div class="auto-container">
                         <div class="content-box p_inherit pt_330 pb_200">
                             <div class="inner">
@@ -356,8 +356,10 @@
     <section class="pb_90 pt_100">
         <div class="auto-container">
             <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>What we do</h6>
-            <h2 class="fw_black fs_45 mb_20">Our Services That We Provide</h2>
-            <p class="mb_50 fs_18">If you need to repair or replace your Plumbing system, call today and talk to one of our Plumbing specialists. They’ll answer all your <br> questions and arrange an appointment at your convenience.</p>
+            <h2 class="fw_black fs_45 mb_20">Services We Provide</h2>
+            <p class="mb_50 fs_18">
+                With the expertise of a team of experienced professionals, Electrogenesis provides your business ICT & Telecommunication needs, clean Power Solutions, Renewable Smart Energy, Lighting, Healthcare and Education.
+            </p>
             <div class="row">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                     <div class="service-1-block alt">
@@ -440,8 +442,10 @@
                                     <a href="project-details"><i class="flaticon-link"></i></a>
                                 </div>
                                 <div class="project-1-content">
-                                    <p class="project-1-cat">Lorence Project</p>
-                                    <h4 class="project-1-title">Building Construction</h4>
+                                    <p class="project-1-cat">Solar Project</p>
+                                    <h4 class="project-1-title">Smart Energy Project, Street Lighting, Building Electrical Wiring& Fitting, Building Earthing& Lightening Protection
+
+                                        </h4>
                                 </div>
                             </div>
                         </div>
