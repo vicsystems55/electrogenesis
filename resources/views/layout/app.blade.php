@@ -17,6 +17,16 @@
     <meta property="og:url" content="https://www.electrogenesis.org">
     <meta property="og:type" content="website">
 
+    <!-- Second Image for other platforms (Dimensions: 600x315 pixels) -->
+    <meta property="og:image" content="{{asset('/')}}assets/images/og_image600315.png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="315">
+
+    <!-- Fallback Image for general sharing (Dimensions: 300x300 pixels) -->
+    <meta property="og:image" content="{{asset('/')}}assets/images/og_image300300.png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
 <!-- Stylesheets -->
 <link href="{{asset('/')}}assets/css/bootstrap.css" rel="stylesheet">
 <link href="{{asset('/')}}assets/css/style.css" rel="stylesheet">
