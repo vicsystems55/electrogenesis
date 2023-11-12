@@ -21,15 +21,15 @@ class PageController extends Controller
         $pageTitle = 'About us';
 
 
-        return view('home', compact('pageTitle'));
+        return view('about', compact('pageTitle'));
     }
     public function services(){
 
 
         $pageTitle = 'Our Services';
 
+        return view('services', compact('pageTitle'));
 
-        return view('home', compact('pageTitle'));
     }
     public function our_projects(){
 
@@ -37,7 +37,7 @@ class PageController extends Controller
         $pageTitle = 'Our Projects';
 
 
-        return view('home', compact('pageTitle'));
+        return view('projects', compact('pageTitle'));
     }
     public function blog(){
 
@@ -60,6 +60,6 @@ class PageController extends Controller
         $pageTitle = 'Contact us';
 
 
-        return view('home', compact('pageTitle'));
+        return view('contact', compact('pageTitle'));
     }
 }
